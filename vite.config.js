@@ -18,6 +18,7 @@ export default defineConfig({
     proxy: {
     "/api": {
     target: "http://localhost:3000/",
+    //http://localhost:3001/api/data => http://localhost:3000/api/data
     changeOrigin: true,
     },
     }
